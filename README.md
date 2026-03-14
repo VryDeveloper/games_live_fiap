@@ -1,3 +1,91 @@
+# Games Live FIAP
+
+![Java](https://img.shields.io/badge/Java-SpringBoot-6DB33F?logo=springboot)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?logo=apachemaven)
+![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker)
+
+## About
+
+Project developed during classes at **FIAP** to learn the fundamentals of **Java** in practice. The application is a **simple games CRUD**, along with an introduction to **Dockerfile** for containerizing the application.
+
+---
+
+## Technologies
+
+- **Java** — Main language
+- **Spring Boot** — Application framework
+- **Maven** — Dependency management
+- **Docker** — Application containerization
+
+---
+
+## Features
+
+- **Create** — Register new games
+- **List** — View all registered games
+- **Update** — Edit game data
+- **Delete** — Remove games
+
+---
+
+## Project Structure
+
+```
+games_live_fiap/
+├── .mvn/wrapper/      # Maven wrapper
+├── src/               # Application source code
+├── Dockerfile         # Container configuration
+├── pom.xml            # Project dependencies
+├── mvnw               # Maven script (Linux/Mac)
+└── mvnw.cmd           # Maven script (Windows)
+```
+
+---
+
+## How to Run
+
+### Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VryDeveloper/games_live_fiap.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd games_live_fiap
+   ```
+3. Run with Maven:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+### With Docker
+
+1. Build the image:
+   ```bash
+   docker build -t games-live-fiap .
+   ```
+2. Run the container:
+   ```bash
+   docker run -p 8080:8080 games-live-fiap
+   ```
+
+---
+
+## Academic Context
+
+Project developed at **FIAP** as a hands-on Java learning exercise, covering CRUD concepts, Spring Boot and an introduction to containerization with Docker.
+
+---
+
+## Author
+
+Made with 💜 by [VryDeveloper](https://github.com/VryDeveloper)
+
+---
+
+> LEARNING PROJECT
+
 # Games Live FIAP 🎮
 
 ## Sobre o Projeto
